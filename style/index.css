@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+
+}
+/* #################### SECTION ######################*/
+
+.container-section {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 10px 0px;
+    align-items: center;
+
+}
+#apple-img {
+    width: 120px;
+    height: 104px;
+}
+
+/* #################### FORM ######################*/
+
+
+.container-form{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+.container-button{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0px 31px 0px;
+    justify-content: center;
+    gap: 20px;
+}
+#button-register {
+    width: 199px;
+    height: 49px;
+    background: #4AD395;
+    border: 1px solid #4AD395;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+#button-have-register{
+    width: 199px;
+    height: 49px;
+    background: #E5E5E5;
+    border: 1px solid #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+
+} 
+.box-form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+}
+input#name{
+    width: 418px;
+    height: 49px;
+    background: rgba(255, 255, 255, 0.65) url('/assets/icon/name-icon.png') no-repeat 3% center;
+    border: 1px solid #4AD395;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0px 40px;
+    cursor: pointer;
+
+}
+input#email{
+    width: 418px;
+    height: 49px;
+    background: rgba(255, 255, 255, 0.65) url('/assets/icon/letter-icon.png') no-repeat 3% center;
+    border: 1px solid #4AD395;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0px 40px;
+    cursor: pointer;
+
+}
+input#phone{
+    width: 418px;
+    height: 49px;
+    background: rgba(255, 255, 255, 0.65) url('/assets/icon/number-icon.png') no-repeat 3% center;
+    border: 1px solid #4AD395;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0px 40px;
+    cursor: pointer;
+
+}
+input.password{
+    height: 30px;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.65) url('/assets/icon/padlock-icon.png') no-repeat 3% center;
+    border-radius: 5px;
+    padding: 0px 40px;
+    border: none;
+    cursor: pointer;
+
+}
+input::placeholder {
+    opacity: 0.5;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.checkbox {
+    font-family: 'Montserrat', sans-serif;
+    width: 418px;
+    height: 49px;
+    font-size: 5pt;
+    
+    
+}
+#text-small{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 10pt;
+    line-height: 12px;
+    color: #777777;
+    cursor: pointer;
+
+}
+.text-span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 10pt;
+    line-height: 12px;
+    color: #4AD395;
+}
+.password-box {
+    padding: 0px 6px 0px 2px;
+    border: 1px solid #4AD395;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 418px;
+    height: 49px;
+    border-radius: 5px;
+}
+.password-icon {
+    padding: 2px;
+    margin: 10px 1px -10px 0px;
+} 
+.last-button {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding-bottom: 15px;
+}
+#button-last-up {
+    width: 199px;
+    height: 49px;
+    background: #4AD395;
+    border: 1px solid #4AD395;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+
+}
+#button-animated {
+    align-items: center;
+    display: none;
+    justify-content: center;
+    transform: scale(5);
+    width: 40px;
+    height: 10px;
+    background: #4AD395;
+    border: 1px solid #4AD395;
+    border-radius: 2px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    margin: auto;
+}
+.button-box-animated {
+    animation: is-rotating 1s infinite;
+    border: 1px solid #4AD395;
+    border-radius: 50%;
+    border-top-color: #E5E5E5;
+    height: 10px;
+    width: 10px;
+}
+@keyframes is-rotating {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+    
